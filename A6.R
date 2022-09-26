@@ -187,7 +187,7 @@ ols_plot_cooksd_chart(model4)
 ols_plot_cooksd_bar(model)
 ols_plot_cooksd_bar(model2)
 ols_plot_cooksd_bar(model3)
-ols_plot_cooksd_bar(model4)
+ols_plot_cooksd_bar(model4) #Observación 1, 8 y 15 outliers
 
 #Correlaciones
 
