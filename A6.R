@@ -5,7 +5,7 @@ install.packages(c('XLConnect','corrplot','GGally','ggplot2','tidyverse','gridEx
 install.packages("psych",repos="https://personality-project.org/r",type="source")
 
 #Importamos las librerías:
-install.packages('tidyverse')
+
 library(XLConnect)
 library(corrplot)
 library(GGally)
@@ -110,6 +110,8 @@ plot5 <- ggplot(data = A6, aes(QRS, model$residuals)) +
   geom_point() + geom_smooth(color = "firebrick") + geom_hline(yintercept = 0) +
   labs(y = 'Residuos del modelo') + theme_bw()
 grid.arrange(plot1, plot2, plot3, plot4,plot5)
+
+#AMT, DIAP Y QRS no son tan lineales
 
 #Modelo definitivo (model4)
 
